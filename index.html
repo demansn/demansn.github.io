@@ -1,8 +1,34 @@
+<!DOCTYPE>
 <html>
 <head>
-	<title>sample game</title>
+	<title>game</title>
+	<style>
+		html, body
+		{
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			background-color: black;
+		}
+		#game {
+			position: absolute;
+			background-color: black;
+		}
+
+		canvas {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0px;
+			top: 0px;
+		}
+	</style>
 </head>
 <body>
-	<div>game</div>
+	<div id='game'>game</div>
+	<script src='./bin/game.js'></script>
 </body>
 </html>
